@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamik Aerial - Tu Academia de Aéreos</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Degradado de rosado a morado como un atardecer */
+            background: linear-gradient(to bottom right, #ff7e5f, #feb47b, #8e54e9); /* Tonos de atardecer: rosado, naranja suave, morado */
+            min-height: 100vh; /* Asegura que el degradado cubra toda la altura */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem; /* Pequeño padding para móviles */
+        }
+        /* Ajuste para el contenedor principal para asegurar que esté centrado y tenga un buen aspecto */
+        .container-wrapper {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para que se vea el degradado */
+            padding: 2rem;
+            border-radius: 1.5rem; /* rounded-3xl */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
+            max-width: 24rem; /* max-w-sm */
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(229, 231, 235, 0.5); /* border border-gray-200 */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div class="container-wrapper">
+        <!-- Logo o imagen de la academia (opcional, se puede añadir aquí) -->
+        <!-- <img src="https://placehold.co/150x150/667eea/ffffff?text=Logo" alt="Logo Dinamik Aerial" class="mx-auto mb-6 rounded-full shadow-md"> -->
+
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-4 tracking-tight">
+            Dinamik Aerial
+        </h1>
+        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+            ¡Vuela con nosotros!
+        </p>
+
+        <div class="space-y-4 mb-8">
+            <!-- Botón de WhatsApp Pole y Flex -->
+            <a href="https://wa.me/56982560647" target="_blank" rel="noopener noreferrer"
+               class="flex items-center justify-center w-full px-6 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Whatsapp Pole y Flex
+            </a>
+
+            <!-- Nuevo Botón: WhatsApp Aéreos -->
+            <a href="https://wa.me/56961841684" target="_blank" rel="noopener noreferrer"
+               class="flex items-center justify-center w-full px-6 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Whatsapp Aéreos
+            </a>
+
+            <!-- Botón de Clases Aero -->
+            <a href="#" class="flex items-center justify-center w-full px-6 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                <span class="text-3xl mr-3">🤸‍♀️</span>
+                Clases Aero
+            </a>
+
+            <!-- Botón: Clases Pole Dance -->
+            <a href="#" class="flex items-center justify-center w-full px-6 py-4 bg-red-500 hover:bg-red-600 text-white font-bold rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                <span class="text-3xl mr-3">💃</span>
+                Clases Pole Dance
+            </a>
+
+            <!-- Botón: Flexibilidad -->
+            <a href="#" class="flex items-center justify-center w-full px-6 py-4 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                <span class="text-3xl mr-3">🧘‍♀️</span>
+                Flexibilidad
+            </a>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="text-sm text-gray-500 mt-6">
+            Copyright 2025 - Desarrollado por <a href="https://obenmedia.cl" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">obenmedia.cl</a>
+        </footer>
+    </div>
+</body>
+</html>
